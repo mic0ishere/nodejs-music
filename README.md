@@ -7,4 +7,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [Support Server](https://discord.gg/vSEC4zz)<br>
 [Creator Website](https://mic0.me)
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+ODbL
