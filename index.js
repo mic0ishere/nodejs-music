@@ -9,7 +9,6 @@ const shuffleCmd = require("./cmd.shuffle")
 const skipCmd = require("./cmd.skip")
 const queueCmd = require("./cmd.queue")
 const volumeCmd = require("./cmd.volume")
-const cmdApply = require('./cmd.apply')
 
 const client = new Client()
 const queue = new Map();
@@ -50,9 +49,6 @@ client.on("message", async message => {
             volumeCmd(message, serverQueue);
             return;
             
-        } else if (message.content.startsWith(`${prefix}apply`)) {
-            cmdApply(message, client);
-            return
         } else {
             message.channel.send("You need to enter a valid command!");
         }
