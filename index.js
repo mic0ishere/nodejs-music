@@ -3,12 +3,12 @@ const {
 } = require('discord.js')
 require('dotenv').config()
 const { token, prefix } = process.env
-const playCmd = require("./cmd.play")
-const leaveCmd = require("./cmd.leave")
-const shuffleCmd = require("./cmd.shuffle")
-const skipCmd = require("./cmd.skip")
-const queueCmd = require("./cmd.queue")
-const volumeCmd = require("./cmd.volume")
+const playCmd = require("./commands/play")
+const leaveCmd = require("./commands/leave")
+const shuffleCmd = require("./commands/shuffle")
+const skipCmd = require("./commands/skip")
+const queueCmd = require("./commands/queue")
+const volumeCmd = require("./commands/volume")
 
 const client = new Client()
 const queue = new Map();

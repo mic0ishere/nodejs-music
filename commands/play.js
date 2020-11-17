@@ -6,7 +6,7 @@ module.exports =
         const {
             MessageEmbed
         } = require('discord.js')
-        const play = require("./play")
+        const play = require("./utils")
         let song
         const args = message.content.split(" ");
         if (!args[1]) return message.channel.send("Please provide a song name or link.")
