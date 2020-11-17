@@ -11,3 +11,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [Authors' Website](https://mic0.me)
 ## License
 ODbL-1.0
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D62PGYB)
